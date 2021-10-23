@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.header{
+  background-color: red;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Contendor{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: calc(5px + 2vmin);
+  margin-bottom: 5vmin;
+}
+
+.Ticket{
+  display:flex;
+  text-align: center;
+  flex-direction:row;
+  justify-content: space-around;
+  min-height: 60vmax;
+  flex-wrap: wrap;
+  
+  font-size: 30px;
+  min-width: 5vw;
+  min-height: 10vh;
+  background-color: rgb(174, 196, 97);
+  border-radius: 10px;
+}
+.Pelis{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: calc(5px + 2vmin);
+  margin-bottom: 5vmin;
+}
